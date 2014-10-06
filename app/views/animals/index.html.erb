@@ -1,0 +1,7 @@
+<% for animal in @animals %>
+ <h2><%= animal.name %></h2>
+ <p><%= animal.description %></p>
+ <p>Location: <%= animal.location %></p>
+ <p>Population: <%= animal.population %> </p>
+<% end %>
+<%= link_to("New Animal", new_animal_path) %>

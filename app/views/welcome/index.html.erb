@@ -1,0 +1,21 @@
+<h1>Zagrożone zwierzęta</h1>
+    <div>
+      <ul>
+
+      <% for url, name in @websites %>
+        <li><a href="<%= url %>"><%= name %></a></li>
+      <% end %>
+
+      </ul>
+     <% for animal in @animals %>
+      <h2><%= animal.name %></h2>
+      <p><%= animal.description %></p>
+      <p>Location: <%= animal.location %></p>
+      <p>Population: <%= animal.population %> </p>
+    <% end %>
+
+
+
+
+    </div>
+     <img src="http://landor.com/media/257081/wwf-9.330w.jpg"/>
