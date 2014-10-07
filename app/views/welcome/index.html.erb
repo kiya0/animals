@@ -8,10 +8,12 @@
 
       </ul>
      <% for animal in @animals %>
+      <div class='well'>
       <h2><%= animal.name %></h2>
       <p><%= animal.description %></p>
       <p>Location: <%= animal.location %></p>
       <p>Population: <%= animal.population %> </p>
+    </div>
     <% end %>
 
 

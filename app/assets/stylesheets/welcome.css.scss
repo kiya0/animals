@@ -1,3 +1,27 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+  color: #F5DEB3	;
+  background-color: #008080 ;
+}
+h1{
+  color: #EEE8AA	;
+  font: kaushanscript-regular ;
+  font-size: 400%
+}
+h2{
+  color: #F4A460	;
+  font-size: 250%
+}
+a{
+  color: #90EE90	;
+}
+a:hover{
+  color: black ;
+}
+.well{
+  background-color: #008080 ;
+  background-image: none ;
+  border-color: #20B2AA	;
+}
